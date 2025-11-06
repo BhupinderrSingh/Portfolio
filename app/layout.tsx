@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     title: "Victor Williams — Frontend Engineer",
     description:
       "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+    url: "https://v1.victorwilliams.me/",
+    siteName: "v1.victorwilliams.me",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
