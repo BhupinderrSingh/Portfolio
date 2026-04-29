@@ -12,56 +12,56 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
-    name: "Odunsi",
+    name: "DeFi-Stablecoin",
     description:
-      "Portfolio website for Michael Odunsi, an experienced UI/UX designer crafting unique, user-friendly products and web experiences for Web3 founders and projects.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/odunsi-web3-folio",
-    demo: "https://www.odunsi.xyz/",
+      "A full-stack Decentralized Stablecoin (CDP) engine built with Foundry and Next.js. This DeFi protocol allows users to deposit collateral and mint a stablecoin, featuring complex smart contract logic for liquidations and oracle price feeds.",
+    technologies: ["Solidity", "Foundry", "Next.js", "Ethereum"],
+    github: "https://github.com/BhupinderrSingh/DeFi-Stablecoin",
+    demo: "",
     image: require(".//../../public/projects/odunsi.png"),
     available: true,
   },
   {
     id: 1,
-    name: "Interlock",
+    name: "CitriScan",
     description:
-      "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/interlock",
-    demo: "https://interlock-teal.vercel.app/",
+      "An AI-powered citrus disease detection system featuring a real-time Gradio web interface. Built with deep learning and optimized image preprocessing using TensorFlow for accurate multi-class disease classification.",
+    technologies: ["TensorFlow", "Python", "Deep Learning", "Gradio"],
+    github: "https://github.com/BhupinderrSingh/CitriScan",
+    demo: "",
     image: require(".//../../public/projects/interlock.png"),
     available: true,
   },
   {
     id: 2,
-    name: "Synthetix",
+    name: "Citrus-Diagnosis",
     description:
-      "Built specifically for an AI startup, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
-    technologies: ["React", "Next.js", "Prismic CMS"],
-    github: "https://github.com/victorcodess/synthetix",
-    demo: "https://synthetix-iota.vercel.app/",
+      "An AI-powered agritech web app featuring a custom MobileNetV2 CNN for real-time citrus disease detection and a Gemini-powered diagnostic chatbot. Built with Flask, responsive CSS/JS, and real-world agricultural data.",
+    technologies: ["Flask", "MobileNetV2", "Gemini API", "Python"],
+    github: "https://github.com/BhupinderrSingh/Citrus-Diagnosis-",
+    demo: "",
     image: require(".//../../public/projects/synthetix-flip.png"),
     available: true,
   },
   {
     id: 3,
-    name: "Propellent",
+    name: "Number-Guess-Game",
     description:
-      "A website built for a software startup and small business, to showcase their services and mark their online presence.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/propellent",
-    demo: "https://propellent.vercel.app/",
+      "A sleek, interactive desktop application built with Java that challenges players to guess a randomly generated number. Demonstrates event-driven programming and graphical user interface (GUI) design patterns.",
+    technologies: ["Java", "Swing", "Event-Driven Programming"],
+    github: "https://github.com/BhupinderrSingh/Number-Guess-Game",
+    demo: "",
     image: require(".//../../public/projects/propellent-new.png"),
     available: true,
   },
   {
     id: 4,
-    name: "Flixify",
+    name: "QuickDesk",
     description:
-      "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
-    technologies: ["Next.js", "Typescript", "Prisma"],
-    github: "https://github.com/victorcodess/flixify",
-    demo: "https://flixify.victorwilliams.me/",
+      "A robust backend solution designed to simplify administrative workflows and user operations. Built with Python, featuring RESTful APIs and database optimization for scalable operations management.",
+    technologies: ["Python", "REST API", "Backend"],
+    github: "https://github.com/BhupinderrSingh/QuickDesk",
+    demo: "",
     image: require(".//../../public/projects/flixify.png"),
     available: true,
   },
@@ -123,50 +123,4 @@ export const devProjects = [
   // },
 ];
 
-export const designProjects = [
-  {
-    id: 1,
-    name: "Hebron Statup Lab Website",
-    description:
-      "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current.",
-    technologies: ["UX Research", "UI Design", "Prototyping"],
-    github: "",
-    demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fhsl.webp&w=1920&q=75",
-    available: false,
-  },
-  {
-    id: 2,
-    name: "RAGS Scrubs Website",
-    description:
-      "An image generator website that allows users to generate, combine, and download images.",
-    technologies: ["UX Research", "UI Design", "Prototyping"],
-    github: "",
-    demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Frags.webp&w=1920&q=75",
-    available: false,
-  },
-  {
-    id: 3,
-    name: "Crown Branding Agency Website",
-    description:
-      "A website that reduces the length of your URL using Bit.ly's API",
-    technologies: ["UX Research", "UI Design", "Prototyping"],
-    github: "",
-    demo: "",
-    image:
-      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fcrown.webp&w=1920&q=75",
-    available: false,
-  },
-  {
-    id: 4,
-    name: "Titi Mobile App",
-    description:
-      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them.",
-    technologies: ["UX Research", "UI Design", "Prototyping"],
-    github: "",
-    demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Ftiti.webp&w=1920&q=75",
-    available: false,
-  },
-];
+export const designProjects = [];

@@ -45,7 +45,7 @@ const Contact = () => {
             />
             <div className="bor der mt-5 flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
               <Link
-                href="mailto:victor.will.chuk@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+                href="mailto:bhupinderrumana91@gmail.com?subject=Let%27s%20work%20together!&body=Hi%20Bhupinder%2C%20I%20think%20we%20can%20collaborate%20on%20something%20amazing...%20Let%20me%20know!"
                 target="_blank"
                 aria-label="Send me an email"
                 className="bor der mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[170px] md:mt-3 lg:mt-4"
@@ -62,13 +62,13 @@ const Contact = () => {
                 }
               />
               <Link
-                href="https://cal.com/victorwilliams/30min"
+                href="https://www.linkedin.com/in/bhupinder-singh-s-rumana/"
                 target="_blank"
-                aria-label="Send me an email"
+                aria-label="Connect on LinkedIn"
                 className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
               >
                 <AnimatedBody
-                  text={"Book a call"}
+                  text={"Connect"}
                   className={"w-[110px] md:w-[120px]"}
                 />
               </Link>
@@ -77,7 +77,7 @@ const Contact = () => {
 
           <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link
-              href="https://github.com/victorcodess"
+              href="https://github.com/BhupinderrSingh"
               target="_blank"
               aria-label="View GitHub Profile"
             >
@@ -91,7 +91,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+              href="https://www.linkedin.com/in/bhupinder-singh-s-rumana/"
               target="_blank"
               aria-label="View LinkedIn Profile"
             >
@@ -105,40 +105,12 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://twitter.com/victorwill__"
+              href="mailto:bhupinderrumana91@gmail.com"
               target="_blank"
-              aria-label="View Twitter Profile"
+              aria-label="Send Email"
             >
               <AnimatedTitle
-                text={"TW"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-            <Link
-              href="https://www.instagram.com/victorwill__/"
-              target="_blank"
-              aria-label="View Instagram Profile"
-            >
-              <AnimatedTitle
-                text={"IG"}
-                className={
-                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-            <Link
-              href="https://blog.victorwilliams.me/"
-              target="_blank"
-              aria-label="View Hashnode Profile"
-            >
-              <AnimatedTitle
-                text={"HN"}
+                text={"EM"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }

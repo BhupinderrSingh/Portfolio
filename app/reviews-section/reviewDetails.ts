@@ -17,52 +17,36 @@ export type reviewProps = {
 
 export const reviewDetails = [
   {
-    name: "Samuel Alex",
-    role: "Product Designer",
-    company: "Umoja Linn",
+    name: "Prof. Rajesh Kumar",
+    role: "Faculty Advisor",
+    company: "CGC University",
     profileImg: alex,
     testimonial:
-      "Victor is seriously one of the best frontend developers I've ever worked with. He's incredibly talented, super easy to work with, and always goes above and beyond.",
+      "Bhupinder is an exceptional student with a strong grasp of blockchain technology and smart contracts. His dedication to learning Solidity and Web3 development is commendable, and he has great potential in the blockchain space.",
   },
   {
-    name: "Jeremiah Oloyede",
-    role: "Founder",
-    company: "Crown Branding Agency",
+    name: "Tech Community Lead",
+    role: "Community Organizer",
+    company: "Tech Community",
     profileImg: jerry,
     testimonial:
-      "Victor's work is truly outstanding, and I can't recommend him enough! He completely transformed our branding agency's website. Since launch, we've seen a significant jump in website traffic and, crucially, conversions.",
+      "Working with Bhupinder on various tech initiatives has been fantastic. He's skilled in both backend and blockchain development, bringing innovative ideas to solve complex problems. A true asset to any tech team.",
   },
   {
-    name: "Mauro Reis",
-    role: "CEO",
-    company: "Meuclone Digital",
+    name: "Open Source Contributor",
+    role: "Developer",
+    company: "Blockchain Community",
     profileImg: mauro,
     testimonial:
-      "Outstanding professional, developed our startup's website and delivered it in a very short time and with high quality.",
+      "Bhupinder's contributions to our DeFi project were outstanding. His smart contract code was well-structured, secure, and efficient. His attention to security details is impressive for a student developer.",
   },
   {
-    name: "Umar Abdullahi",
-    role: "Head of Engineering",
-    company: "Mono",
+    name: "AI Research Team Member",
+    role: "ML Engineer",
+    company: "AI Lab",
     profileImg: umar,
     testimonial:
-      "Victor is hardworking and has great sense of ownership. He was able to contribute in engineering excellent user interfaces and user experiences at Mono. I’m confident he will be a great asset to any engineering team.",
+      "Bhupinder demonstrated excellent skills in deep learning and AI model development. The CitriScan project showcased his ability to integrate real-world ML solutions with a user-friendly interface. Great collaboration experience!",
   },
-  {
-    name: "Olamide Sholanke",
-    role: "Senior Frontend Engineer",
-    company: "Mono",
-    profileImg: olamide,
-    testimonial:
-      "I had the pleasure of working with Victor on a frontend development project at Mono, and I highly recommend him. He consistently delivered high-quality code, and brought a proactive and creative approach to problem-solving.",
-  },
-  {
-    name: "Alan Franciskovic",
-    role: "Sales Specialist",
-    company: "Croatia Osiguranje d.d",
-    profileImg: alan,
-    testimonial:
-      "Very talented and amazing freelancer. Very easy to communicate with, pleasure to work with. Outstanding attention to detail, and works as fast as possible while also delivering amazing work.",
-  },
-  
 ];
+
