@@ -7,7 +7,7 @@ export type blogProps = {
   index: number;
 };
 
-export const blogDetails = [
+export const blogDetails: blogProps[] = [
   // Add your blog posts here
   // Format:
   // {
