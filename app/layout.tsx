@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-
+//import { Analytics } from "@vercel/analytics/next"
 // 1. Initialize the font
 const syne = Syne({ subsets: ["latin"] });
 
